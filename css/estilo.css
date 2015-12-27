@@ -1,0 +1,26 @@
+body {
+    background-color: white;
+}
+
+h1 {
+    color: navy;
+    margin-left: 20px;
+}
+
+div#viewport {
+    position: absolute;
+    top: 0px;
+    width: 100%;
+}
+#viewport {
+    min-height: 100%;
+    position: relative;
+    width: 100%;
+}
+.ctrl-pagina {
+    margin: 0px auto;
+    min-width: 980px;
+}
+.content {
+    padding-bottom: 35px;
+}
