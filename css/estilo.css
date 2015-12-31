@@ -24,3 +24,16 @@ div#viewport {
 .content {
     padding-bottom: 35px;
 }
+@font-face{
+    font-family:Comfortaa-Light;
+    src: url(‘/font/comfortaa/Comfortaa-Light.ttf');
+}
+
+@font-face{
+    font-family:Comfortaa-Regular;
+    src: url(‘/font/comfortaa/Comfortaa-Regular.ttf');
+}
+@font-face{
+    font-family:Comfortaa-Bold;
+    src: url(‘/font/comfortaa/Comfortaa-Bold.ttf');
+}
