@@ -48,7 +48,3 @@ Ver url da licenca : http://www.fontsquirrel.com/license/RegencyScriptFLF
     src: url('/fonte/Comfortaa-Bold.ttf');
 	src: local('Comfortaa Bold'), url('/fonte/Comfortaa-Bold.ttf')format('truetype');
 }
-@font-face{
-    font-family:'Bendai';
-    src: url(‘/imagens/marca/bendai_logotipo_colorido_.svg');
-}
