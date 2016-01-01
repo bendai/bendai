@@ -37,3 +37,7 @@ div#viewport {
     font-family:Comfortaa-Bold;
     src: url(‘/font/comfortaa/Comfortaa-Bold.ttf');
 }
+@font-face{
+    font-family:Bendai;
+    src: url(‘/imagens/marca/bendai_logotipo_colorido_.svg');
+}
