@@ -25,3 +25,23 @@ div#viewport {
 .content {
     padding-bottom: 35px;
 }
+
+@font-face{
+    font-family: 'Comfortaa Light';
+    src: url("http://bendai.com.br/fonte/Comfortaa-Light.ttf");
+    src: local('Comfortaa Light'), url("http://bendai.com.br/fonte/Comfortaa-Light.ttf") format('truetype');
+}
+@font-face{
+    font-family:'Comfortaa Regular';
+    src: url("http://bendai.com.br/fonte/Comfortaa-Regular.ttf");
+    src: local('Comfortaa Regular'), url("http://bendai.com.br/fonte/Comfortaa-Regular.ttf") format('truetype');
+}
+@font-face{
+    font-family:'Comfortaa Bold';
+    src: url("http://bendai.com.br/fonte/Comfortaa-Bold.ttf");
+    src: local('Comfortaa Bold'), url("http://bendai.com.br/fonte/Comfortaa-Bold.ttf") format('truetype');
+}
+@font-face {
+    font-family: "Comfortaa Bold";
+    src: url("http://bendai.com.br/imagens/marca/bendai_logotipo_colorido_.svg");
+}
