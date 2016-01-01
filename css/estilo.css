@@ -1,5 +1,6 @@
 body {
     background-color: floralwhite;
+    font:35px "RegencyScriptFLF Regular", Arial, Helvetica, sans-serif;
 }
 
 h1 {
@@ -24,20 +25,30 @@ div#viewport {
 .content {
     padding-bottom: 35px;
 }
-@font-face{
-    font-family:Comfortaa-Light;
-    src: url(‘/font/comfortaa/Comfortaa-Light.ttf');
-}
+/*
+Regras CSS para @font-face conforme Paul Irish.
+http://paulirish.com/2009/bulletproof-font-face-implementation-syntax/
+A fonte usada eh para fins de demonstracao e é copyrigth de:
+Casady & Greene - http://www.moorstation.org/typoasis/designers/casady_greene/
+Ver url da licenca : http://www.fontsquirrel.com/license/RegencyScriptFLF
+ */
 
 @font-face{
-    font-family:Comfortaa-Regular;
-    src: url(‘/font/comfortaa/Comfortaa-Regular.ttf');
+	font-family: 'Comfortaa Light';
+	src: url('/fonte/Comfortaa-Light.ttf');
+	src: local('Comfortaa Light'), url('/fonte/Comfortaa-Light.ttf')format('truetype');
 }
 @font-face{
-    font-family:Comfortaa-Bold;
-    src: url(‘/font/comfortaa/Comfortaa-Bold.ttf');
+    font-family:'Comfortaa Regular';
+    src: url('/fonte/Comfortaa-Regular.ttf');
+	src: local('Comfortaa Regular'), url('/fonte/Comfortaa-Regular.ttf')format('truetype');
 }
 @font-face{
-    font-family:Bendai;
+    font-family:'Comfortaa Bold';
+    src: url('/fonte/Comfortaa-Bold.ttf');
+	src: local('Comfortaa Bold'), url('/fonte/Comfortaa-Bold.ttf')format('truetype');
+}
+@font-face{
+    font-family:'Bendai';
     src: url(‘/imagens/marca/bendai_logotipo_colorido_.svg');
 }
